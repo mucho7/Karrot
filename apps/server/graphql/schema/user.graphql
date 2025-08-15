@@ -1,0 +1,17 @@
+type User {
+  id: ID!
+  name: String!
+  role: Role!
+  posts: [Post!]!
+}
+
+enum Role {
+  ADMIN
+  USER
+  GUEST
+}
+
+input CreateUserInput {
+  name: String!
+  role: Role! = USER
+}
