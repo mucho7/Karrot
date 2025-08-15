@@ -9,14 +9,22 @@
 ---
 
 ## 📸 실행 화면
-### 서버 실행
-![server-run](./images/server-run.png)
+### Enum 리터럴을 인자로 사용
+![enum-literal](./images/enum-literal.png)
 
-### 첫 쿼리 실행 (curl)
-![curl-hello](./images/curl-hello.png)
+### Enum args를 string으로 넘기려고 시도
+![enum-string](./images/enum-string.png)
 
-### GraphiQL로 쿼리 실행
-![graphi-greeting](./images/grahpi-greeting.png) 
+
+### Variable로 Enum string을 넘기는 시도
+![enum-variables](./images/enum-variables.png)
+
+
+### users - posts를 할 때 parent의 id를 조회해서 post를 filterig하는 시도
+![use-parent-args](./images/use-parent-args.png)
+
+### user Mutation
+![mutate-user](./images/mutate-user.png)
 
 ---
 
