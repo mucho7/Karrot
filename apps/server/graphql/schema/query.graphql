@@ -1,0 +1,6 @@
+type Query {
+  users(role: Role): [User!]!
+  user(id: ID!): User
+  posts(status: PostStatus): [Post!]!
+  post(id: ID!): Post
+}
